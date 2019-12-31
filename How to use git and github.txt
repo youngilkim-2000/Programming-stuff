@@ -28,3 +28,17 @@ git commit -m "message"
 
 git reset
 // undo a git commit
+
+notes (connecting local repo to github):
+1. git remote add origin "url"
+2. git push -u origin master
+
+git branch
+// lists all branches
+
+git checkout *-b* <branch>
+// switches to another branch *creates and switches to another branch
+
+git merge <branch_you_wish_to_merge>
+// in the branch YOU WANT TO MERGE EVERYTHING, merge the branch 
+
