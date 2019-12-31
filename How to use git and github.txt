@@ -1,0 +1,30 @@
+Git Commands:
+
+notes:
+--local changes the local repository settings
+--global changes the user settings
+--system changes the system settings
+
+git config user.email *""
+// check user email *set user email
+
+git config user.name *""
+// check username *set user name
+
+git init
+// initializes a repository as a git repository
+
+git clone <url>
+// copies a git repository form the url
+
+git status
+// checks changes in the current directory 
+
+git add <file/repo>/*.
+// adds all changes to a file/repo* adds all changes
+
+git commit -m "message"
+// commits changes with the message "message"
+
+git reset
+// undo a git commit
